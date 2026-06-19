@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#080808;
+  --card:#111111;
+  --accent:#00F5FF;
+  --text:#F8F8F8;
+  --muted:#999;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#080808;
+  color:white;
+  font-family:'Inter',sans-serif;
+  overflow-x:hidden;
+}
+
+.pixel{
+  font-family:'Press Start 2P',cursive;
+}
+
+.glass{
+  background:rgba(255,255,255,.05);
+  backdrop-filter:blur(20px);
+  border:1px solid rgba(255,255,255,.1);
+}
+
+.grid-bg{
+  background-image:
+    linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+
+  background-size:40px 40px;
+}
+
+.glow{
+  box-shadow:
+  0 0 20px #00F5FF,
+  0 0 40px #00F5FF50;
+}
+
+.section{
+  padding:120px 8%;
+}
+
+.noise{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  opacity:.03;
+  background-image:url("https://grainy-gradients.vercel.app/noise.svg");
+}
