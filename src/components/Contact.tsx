@@ -47,7 +47,7 @@ export default function Contact() {
     <button
     className="
     mt-6
-    bg-cyan-400
+    bg-pink-500
     text-black
     px-8
     py-4

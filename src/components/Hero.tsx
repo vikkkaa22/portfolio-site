@@ -17,9 +17,9 @@ export default function Hero() {
     animate={{opacity:1,y:0}}
     transition={{duration:1}}
     className="
-    pixel
     text-5xl
     md:text-7xl
+    font-bold
     leading-relaxed">
 
       Создаю сайты и визуал,
@@ -47,8 +47,8 @@ export default function Hero() {
     mt-10
     px-8 py-4
     rounded-xl
-    bg-cyan-400
-    text-black
+    bg-pink-500
+    text-white
     font-semibold">
 
       Смотреть проекты
